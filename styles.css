@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
-    height: 100vh;
-    margin: 0;
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
+}
+
+.full-bleed {
+    width: 100vw;
+    margin-left: cacl(50% - 50vw);
 }
 
 .header {
@@ -29,8 +38,6 @@ body{
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 a{
@@ -53,6 +60,7 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 .quad1 .main {
@@ -98,7 +106,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 450px;
+    min-height: 450px;
     flex: none;
 }
 
@@ -107,19 +115,25 @@ img {
     font-size: 36px;
     font-weight: 1000;
     text-align: center;
-    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .cards{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    max-width: 150px;
     align-items: center;
+    max-width: 150px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+
 }
 
 .card img {
