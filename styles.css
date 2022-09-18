@@ -19,8 +19,7 @@ body{
 
 .header {
     background-color: #1f2937;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    min-height: 50px;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -40,9 +39,12 @@ ul {
     list-style-type: none;
 }
 
+li{
+    margin-left: 20px;
+}
+
 a{
     text-decoration: none;
-    margin-left: 20px;
 }
 
 .quad1{
@@ -123,6 +125,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-bottom: 20px;
 }
 
 .card {
