@@ -95,11 +95,8 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 250px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    height: 450px;
     flex: none;
-
 }
 
 .quad2 .main {
@@ -131,4 +128,28 @@ img {
     text-align: center;
     color: gray;
     margin-top: 8px;
+}
+
+.quad3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    flex: none;
+}
+
+.quad3 .main {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 0;
+    font-style: italic;
+}
+
+.quad3 .secondary {
+    color: #1f2937;
+    font-size: 18px;
+    font-weight: 800;
+    display: flex;
+    justify-content: flex-end;
 }
