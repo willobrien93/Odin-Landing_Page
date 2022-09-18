@@ -62,17 +62,20 @@ a{
 }
 
 button {
-    color: #f9faf8;
-    background-color: #3882f6;
-    border-radius: 8px;
     font-weight: 900;
+    border-radius: 8px;
     width: 100px;
-    margin-top: 10px;
     border: 0;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.quad1 button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    margin-top: 10px;
 }
 
 .image{
@@ -152,4 +155,32 @@ img {
     font-weight: 800;
     display: flex;
     justify-content: flex-end;
+}
+
+.quad4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    flex: none;
+}
+
+.quad4 .container{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.quad4 .main{
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.quad4 button{
+    color: white;
+    background-color: #3882f6;
+    border: 2px solid white;
 }
