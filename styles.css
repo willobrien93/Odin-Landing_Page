@@ -184,3 +184,12 @@ img {
     background-color: #3882f6;
     border: 2px solid white;
 }
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display:flex;
+    justify-content: center;
+}
