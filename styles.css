@@ -55,7 +55,7 @@ a{
     justify-content: center;
 }
 
-.main {
+.quad1 .main {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 1000;
@@ -89,4 +89,46 @@ img {
 .secondary, a {
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.quad2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex: none;
+
+}
+
+.quad2 .main {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 1000;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    align-items: center;
+}
+
+.card img {
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.subtext {
+    text-align: center;
+    color: gray;
+    margin-top: 8px;
 }
