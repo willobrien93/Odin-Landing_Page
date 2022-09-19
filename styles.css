@@ -155,7 +155,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 400px;
+    min-height: 400px;
     flex: none;
 }
 
