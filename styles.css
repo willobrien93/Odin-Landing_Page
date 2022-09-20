@@ -49,20 +49,35 @@ a{
 
 .quad1{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     background-color: #1f2937;
-    height: 250px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    flex: none;
+    min-height: 575px;
 }
 
-.quad1 > div {
-    flex: 1;
-    width: 0;
+.quad1 .content {
+    /* width: 0; */
     display: flex;
+    flex: 1 1 50vw;
     flex-direction: column;
     justify-content: center;
-    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.image {
+    display: flex;
+    flex: 0 1 40%;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    min-width: 300px;
 }
 
 .quad1 .main {
@@ -88,17 +103,6 @@ button {
     margin-top: 10px;
 }
 
-.image{
-    flex:0 0 auto;
-}
-
-img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    object-position: center;
-}
-
 .secondary, a {
     color: #e5e7eb;
     font-size: 18px;
@@ -109,7 +113,6 @@ img {
     flex-direction: column;
     justify-content: center;
     min-height: 450px;
-    flex: none;
 }
 
 .quad2 .main {
@@ -140,6 +143,8 @@ img {
 }
 
 .card img {
+    width: 100%;
+    height: 100%;
     border: 3px solid #3882f6;
     border-radius: 10px;
 }
@@ -156,7 +161,6 @@ img {
     flex-direction: column;
     justify-content: center;
     min-height: 400px;
-    flex: none;
 }
 
 .quad3 .main {
@@ -179,7 +183,6 @@ img {
     flex-direction: column;
     justify-content: center;
     height: 400px;
-    flex: none;
 }
 
 .quad4 .container{
