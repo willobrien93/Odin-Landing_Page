@@ -189,6 +189,7 @@ button {
     background-color: #3882f6;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 50px;
     border-radius: 10px;
 }
@@ -203,6 +204,7 @@ button {
     color: white;
     background-color: #3882f6;
     border: 2px solid white;
+    flex: none;
 }
 
 .footer {
